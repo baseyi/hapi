@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   build:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/mine'
     runs-on: ubuntu-latest
 
     defaults:
